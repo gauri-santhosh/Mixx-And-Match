@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center; /* Center all text */
+}
+
+header {
+    padding: 20px;
+    background-color: #222;
+}
+
+header h1 {
+    margin: 0;
+    text-transform: uppercase; /* Make heading uppercase */
+    font-size: 36px; /* Increase font size */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffa500; /* Bright orange color for navigation links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff7b54; /* Darker orange color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Form Styles */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px); /* Adjust according to your header and footer height */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px; /* Increase padding to make forms larger */
+    border-radius: 10px;
+    width: 50%; /* Adjust width as needed */
+    max-width: 600px; /* Set a max-width to prevent forms from becoming too wide */
+}
+
+form h2 {
+    margin-top: 0;
+    color: #fff; /* White text for form headings */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 20px; /* Increase margin between inputs */
+    padding: 15px; /* Increase padding for inputs */
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1); /* White background for input boxes */
+    color: #fff; /* White text */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #fff; /* White placeholder text */
+}
+
+button {
+    width: 100%;
+    padding: 15px; /* Increase padding for button */
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7b54; /* Orange background for button */
+    color: #fff; /* White text */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5c2a;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7b54; /* Orange background for button */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ff5c2a;
+}
